@@ -1,0 +1,298 @@
+body, html {
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #000;
+    margin: 0px;
+}
+
+h2 {
+    
+    padding-top: 80px;
+	line-height: 20px;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+	color:#330000;
+}
+
+hr {
+    
+	height: 3px;
+	width: 60px;
+	text-align: center;
+	position: relative;
+	background: #0ea556;
+	border: 0;
+	margin: 10px auto 30px;
+}
+
+h4 
+{
+	font-size: 20px;
+	color: #666;
+}
+
+
+#menu {
+	padding: 4px;
+    height: auto;
+   
+}
+
+#menu.navbar-default {
+    padding: 3px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#menu.navbar-default .navbar-nav > li > a {
+    margin-top:12px;
+	color:#0ea556;
+	font-size: 16px;
+}
+
+#menu.navbar-default .navbar-nav > li > a:hover {
+    color:#000;
+
+}
+
+
+#gallery
+{
+    background-color:#eeeeee;
+}
+
+.overlay
+{
+  position: absolute;
+  bottom:90%;
+  background-color:rgba(0,0,0,.5);
+  overflow: hidden;
+  width:90%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+ top:70px;
+  height: 100px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.btn-success {
+    margin-top: 17px;
+    font-size: 14px;
+    margin-left:7px; 
+}
+
+.navbar-toggle {
+	border-radius:3px;
+    background:#0ea556;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color:#0ea556;
+	border-color: #0dad8d;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#fff;
+}
+
+#slider
+{
+   	background:url(../img/pic_3.jpg); 
+    background-size:cover;
+    height:500px;
+    margin-top:0px;
+    
+}
+.slider-overlay{
+    width:100%;
+    height:500px;
+    background:rgba(0,0,0,.6);
+}
+.item{
+    padding-top:210px;
+    padding-bottom:210px;
+    padding-right:70px;
+	color:#fff;
+   
+}
+
+.item span{
+	color:#eeeeee;
+}
+.item h3
+{
+    font-size:30px;
+}
+.item h4{
+	font-size:20px;
+    color:#ffffff;
+}
+
+.carousel-indicators
+{
+    padding-right:70px;
+}
+
+.carousel-indicators li{
+	background:#fff;
+	width:15px;
+	height:15px;
+    margin:2px; 
+
+}
+.carousel-indicators .active{
+	background:#1AA260;
+	border:1px solid #fff;
+	width:15px;
+	height:15px;
+    margin:2px; 
+}
+
+/* About Section */
+#about-section {
+	padding: 20px 0 20px 0;
+    background-color:#fff;
+}
+
+/* index form */
+.login-wrap{
+    padding-top:10px; 
+    padding-left:20px;
+    background:#fff2e6;
+    
+}
+
+.form-control {
+    display: block;
+    width: 60%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+
+}
+
+.form-file{
+    margin-bottom: 25px;
+}
+
+legend h3
+{
+    margin-top: 100px;
+}
+
+
+/*--footer start here--*/
+#footer {
+    	background:linear-gradient(
+                     rgba(20,20,20, .9), 
+                     rgba(20,20,20, .9)),
+        url(../img/images.jpg);
+    background-size: cover;
+    padding: 20px 0;
+    color:#fff;
+    border-top: 6px solid #0ea556;
+}
+.ftr-grd a {
+    color:#0ea556;
+    text-decoration: none;
+}
+.ftr-grd h3 {
+  font-size: 2em;
+  color: #FFFFFF; 
+  margin: 0em 0em 0.6em 0em;  
+  padding-left:30px;
+  font-family:'Viga-Regular';
+}
+.ftr-grd p {
+  font-size: 0.95em;
+  font-weight: 300;
+  color: #A0A0A0;
+  line-height: 1.5em;
+  padding-top: 0px;
+  padding-left:30px; 
+}
+
+.ftr-grd ul {
+  padding: 0em;
+  list-style: none;
+}
+
+.ftr-grd ul li{
+  display:inline-block;
+}
+
+
+.copy-right {
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+  margin-bottom: 0;
+}
+.copy-right p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  margin:0;
+}
+.copy-right p a {
+  color: #0ea556;
+}
+.copy-right p a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+.header-slider
+{
+   	background:linear-gradient(
+        rgba(20,20,20,.7),
+        rgba(20,20,20,.7)),
+        url(../img/Food-preparation.jpeg); 
+    background-size:cover;
+    height:150px;
+    margin-top:0px;
+    
+}
+
+
+
+@media (max-width: 768px) {
+.content {
+	padding: 40% 0 0;
+}
+}
+
+@media (max-width: 603px) {
+#menu.navbar-default {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+label {
+	float: none !important
+}
+.hover-bg .hover-text {
+	padding: 12% 10%;
+}
+}
+
+@media (max-width: 360px) {
+.hover-bg .hover-text {
+	padding: 22% 10%;
+}
+}
